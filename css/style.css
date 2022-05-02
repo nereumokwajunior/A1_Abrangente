@@ -1,0 +1,97 @@
+body {
+    margin: 0px auto;
+    background-color: red;
+    font-family: Geneva, Arial, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+#menu div{ 
+    margin: 20px;
+    background-color: red;
+    color: #FFFFFF;
+}
+#menu nav {
+    background-color: red;
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+#menu nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+}
+#menu nav ul li{
+    padding: 0px 20px;
+}
+#menu nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#menu nav ul li:hover, a:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+section {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+article {
+    background-color: #eee;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 20px #888;
+    -moz-box-shadow: 2px 2px 20px #888;
+}
+article header {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+article footer {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+article header h1{
+    text-align:center;
+    color: red;
+}
+article div{
+    text-align: center;
+}
+footer {
+    clear: both;
+    display: block;
+    background-color: red;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+}
+
+footer h2 {
+    color: white;
+    font-size:18px;
+}
+
+#TabClassificacao td {
+    text-align: center;
+}
+
+.RedAlert {
+    font-weight: bold;
+    color: red;
+}
